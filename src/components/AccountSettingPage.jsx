@@ -10,7 +10,7 @@ export default function AccountSettingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = useSelector((state) => state.user);
-  const [imagePreview, setImagePreview] = useState("/shyam_image.jpg");
+  const [imagePreview, setImagePreview] = useState("/public/shyam_image.jpg");
 
   useEffect(() => {
     // Check if there's a user-selected image in localStorage
